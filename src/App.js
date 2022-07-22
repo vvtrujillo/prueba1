@@ -24,6 +24,10 @@ class App extends React.Component{
     })
   }
 
+  limpiarObjetos = (e) => {
+    {/*Aca vamos a limpiar los objetos del formulario*/}
+  }
+
   formSubmit = (e) =>{
     e.preventDefault();
   }
