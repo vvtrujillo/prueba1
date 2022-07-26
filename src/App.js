@@ -26,7 +26,6 @@ class App extends React.Component{
 
   limpiarObjetos = (e) => {
     {/*Aca vamos a limpiar los objetos del formulario*/}
-    this.state={nombre:"",apellido=""};
   }
 
   formSubmit = (e) =>{
@@ -52,7 +51,6 @@ class App extends React.Component{
             <ul>
               <li>Este es un Hijo</li>
               <li>Este es otro Hijo</li>
-              <li>Este es otro hijo</li>
             </ul>
           </Primero>
         </div>      
